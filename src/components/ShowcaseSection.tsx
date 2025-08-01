@@ -23,10 +23,10 @@ const ShowcaseSection = () => {
     },
     {
       image: landingPage1,
-      title: "Curso Online",
-      description: "Landing page educacional com alta taxa de conversão em vendas",
+      title: "Prestador de Serviços",
+      description: "Landing page para serviços profissionais com atendimento personalizado",
       conversion: "89%",
-      category: "Educação"
+      category: "Serviços"
     }
   ];
 
