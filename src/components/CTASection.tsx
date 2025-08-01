@@ -15,7 +15,7 @@ const CTASection = () => {
   });
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappMessage = `Olá! Gostaria de agendar uma consultoria gratuita.%0A%0ANome: ${formData.name}%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}%0AEmpresa: ${formData.company}%0AMensagem: ${formData.message}%0A%0APor favor, encaminhe para: contato@gtgestaodigital.com.br`;
+    const whatsappMessage = `Olá! Quero agendar minha call de finalização para criar minha landing page.%0A%0ANome: ${formData.name}%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}%0AEmpresa: ${formData.company}%0ADetalhes: ${formData.message}%0A%0APor favor, encaminhe para: contato@gtgestaodigital.com.br`;
     window.open(`https://wa.me/553171547107?text=${whatsappMessage}`, '_blank');
   };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -24,24 +24,23 @@ const CTASection = () => {
       [e.target.name]: e.target.value
     });
   };
-  const consultingBenefits = ["Análise completa do seu negócio", "Estratégia personalizada de crescimento", "Identificação de oportunidades perdidas", "Plano de ação com prazos definidos"];
+  const landingPageBenefits = ["Landing page responsiva e otimizada", "Copy persuasiva focada em conversão", "Integração com WhatsApp e analytics", "Entrega garantida em 48 horas"];
   return <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <Badge className="bg-green-100 text-green-700 border-green-200 mb-6">
-            Consultoria Gratuita
+            Call de Finalização
           </Badge>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Pronto para
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              {" "}Transformar
+              De R$ 997 por R$ 597
             </span>
-            <br />Seus Resultados?
+            <br />ou 12x de R$ 59,90
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Agende uma conversa gratuita com nossos especialistas e descubra como multiplicar 
-            sua receita com marketing digital e automação inteligente.
+            Agende sua call de finalização e receba sua landing page de alta conversão 
+            <strong> entregue em 48 horas garantido</strong>.
           </p>
         </div>
 
@@ -53,12 +52,12 @@ const CTASection = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <CheckCircle className="w-6 h-6 text-green-500" />
-                  O que você recebe na consultoria
+                  O que está incluso na sua landing page
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-3">
-                  {consultingBenefits.map((benefit, index) => <li key={index} className="flex items-center gap-3">
+                 <ul className="space-y-3">
+                  {landingPageBenefits.map((benefit, index) => <li key={index} className="flex items-center gap-3">
                       <ArrowRight className="w-4 h-4 text-primary flex-shrink-0" />
                       <span className="text-muted-foreground">{benefit}</span>
                     </li>)}
@@ -72,8 +71,8 @@ const CTASection = () => {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-2">
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary">30min</div>
-                <p className="text-sm text-muted-foreground">Duração</p>
+                <div className="text-2xl font-bold text-primary">48h</div>
+                <p className="text-sm text-muted-foreground">Entrega</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-2">
@@ -86,8 +85,8 @@ const CTASection = () => {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-2">
                   <Zap className="w-6 h-6 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary">24h</div>
-                <p className="text-sm text-muted-foreground">Resposta</p>
+                <div className="text-2xl font-bold text-primary">12x</div>
+                <p className="text-sm text-muted-foreground">R$ 59,90</p>
               </div>
             </div>
 
@@ -97,10 +96,10 @@ const CTASection = () => {
                 <div className="flex items-center gap-4">
                   <MessageSquare className="w-10 h-10 flex-shrink-0" />
                   <div className="flex-1">
-                    <h3 className="font-bold text-lg mb-1">Prefere conversar agora?</h3>
-                    <p className="text-green-100 text-sm">Fale direto com nossos especialistas via WhatsApp</p>
+                    <h3 className="font-bold text-lg mb-1">Quer começar agora?</h3>
+                    <p className="text-green-100 text-sm">Fale direto conosco via WhatsApp</p>
                   </div>
-                  <Button className="bg-white text-green-600 hover:bg-green-50 font-bold" onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20agente%20de%20IA.', '_blank')}>
+                  <Button className="bg-white text-green-600 hover:bg-green-50 font-bold" onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}>
                     Chamar
                   </Button>
                 </div>
@@ -114,9 +113,9 @@ const CTASection = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Calendar className="w-6 h-6 text-primary" />
               </div>
-              <CardTitle className="text-2xl">Agendar Consultoria Gratuita</CardTitle>
+              <CardTitle className="text-2xl">Agendar Call de Finalização</CardTitle>
               <CardDescription>
-                Preencha o formulário abaixo para agendar sua consultoria
+                Preencha o formulário para agendar sua call e começar sua landing page
               </CardDescription>
             </CardHeader>
             
@@ -162,7 +161,7 @@ const CTASection = () => {
                 </div>
                 
                 <Button type="submit" className="w-full bg-primary hover:bg-primary-hover text-primary-foreground py-3 text-lg font-bold" size="lg">
-                  Agendar Consultoria Gratuita
+                  Agendar Call de Finalização
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
                 

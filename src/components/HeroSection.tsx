@@ -16,56 +16,56 @@ const HeroSection = () => {
           
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-8">
-            <MessageSquare className="w-4 h-4" />
-            Agente de WhatsApp Mais Inteligente do Brasil
+            <Zap className="w-4 h-4" />
+            Landing Pages de Alta Conversão
           </div>
           
           {/* Main title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Revolucione Seu Atendimento com
+            Landing Page que
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              {" "}Agente de IA{" "}
+              {" "}Converte{" "}
             </span>
-            para WhatsApp
+            em 48 Horas
           </h1>
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            <strong>Atendimento 24/7</strong> que nunca descansa, não tira férias, não fica doente e 
-            conhece tudo sobre sua empresa. <strong>Aumente suas vendas em 400%</strong>.
+            <strong>De R$ 997 por apenas R$ 597</strong> ou 12x de R$ 59,90. 
+            Landing page profissional <strong>entregue em 48 horas</strong> garantido.
           </p>
           
           {/* Features grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-w-2xl mx-auto">
             <div className="flex items-center justify-center gap-2 text-sm">
               <Clock className="w-5 h-5 text-primary" />
-              <span>Atendimento 24/7</span>
+              <span>Entrega em 48h</span>
             </div>
             <div className="flex items-center justify-center gap-2 text-sm">
-              <Brain className="w-5 h-5 text-primary" />
-              <span>Nunca fica doente</span>
+              <Target className="w-5 h-5 text-primary" />
+              <span>Alta conversão</span>
             </div>
             <div className="flex items-center justify-center gap-2 text-sm">
-              <Zap className="w-5 h-5 text-primary" />
-              <span>Respostas instantâneas</span>
+              <BarChart3 className="w-5 h-5 text-primary" />
+              <span>Design profissional</span>
             </div>
           </div>
           
           {/* CTA Button */}
           <div className="flex justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300" onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20agente%20de%20IA.', '_blank')}>
-              Testar Agente Grátis Agora
+            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300" onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}>
+              Quero Minha Landing Page
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
           
           {/* Trust indicators */}
           <div className="mt-12 text-sm text-muted-foreground">
-            <p className="mb-4">✅ Mais de 200 clientes satisfeitos</p>
+            <p className="mb-4">✅ Mais de 200 landing pages entregues</p>
             <div className="flex flex-wrap justify-center gap-6 opacity-60">
-              <span className="bg-secondary px-3 py-1 rounded-md">WhatsApp Oficial</span>
-              <span className="bg-secondary px-3 py-1 rounded-md">IA Avançada</span>
-              <span className="bg-secondary px-3 py-1 rounded-md">Suporte 24/7</span>
+              <span className="bg-secondary px-3 py-1 rounded-md">48h Garantido</span>
+              <span className="bg-secondary px-3 py-1 rounded-md">Alta Conversão</span>
+              <span className="bg-secondary px-3 py-1 rounded-md">Suporte Completo</span>
             </div>
           </div>
         </div>

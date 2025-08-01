@@ -1,56 +1,56 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Clock, Brain, MessageSquare, Settings, Zap, ArrowRight, Users, CheckCircle } from "lucide-react";
+import { Clock, Palette, MessageSquare, Settings, Zap, ArrowRight, Smartphone, CheckCircle } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
     {
       icon: Clock,
-      title: "Atendimento 24/7",
-      subtitle: "Nunca Para de Trabalhar",
-      description: "Seu agente virtual atende clientes 24 horas por dia, 7 dias por semana, 365 dias por ano. Nunca descansa, não tira férias e não fica doente.",
-      features: ["Disponível 24/7/365", "Zero pausas ou intervalos", "Sem feriados ou férias"],
-      badge: "Essencial"
+      title: "Entrega em 48h",
+      subtitle: "Rapidez Garantida",
+      description: "Sua landing page fica pronta em apenas 48 horas úteis. Processo otimizado para máxima agilidade sem comprometer a qualidade.",
+      features: ["Entrega garantida em 48h", "Processo otimizado", "Sem atrasos"],
+      badge: "Garantido"
     },
     {
-      icon: Brain,
-      title: "Conhecimento Total",
-      subtitle: "Sabe Tudo Sobre Sua Empresa",
-      description: "Treinado com todas as informações da sua empresa: produtos, serviços, preços, políticas e procedimentos.",
-      features: ["Base de conhecimento completa", "Respostas precisas", "Informações sempre atualizadas"],
-      badge: "Inteligente"
+      icon: Palette,
+      title: "Design Profissional",
+      subtitle: "Visual de Impacto",
+      description: "Design moderno e responsivo que funciona perfeitamente em todos os dispositivos, criado para maximizar conversões.",
+      features: ["Design responsivo", "Visual moderno", "Otimizado para conversão"],
+      badge: "Premium"
     },
     {
       icon: MessageSquare,
-      title: "Conversas Naturais",
-      subtitle: "Parece um Humano Real",
-      description: "Utiliza IA avançada para manter conversas naturais e envolventes, criando uma experiência indistinguível de um atendente humano.",
-      features: ["Linguagem natural", "Empatia artificial", "Personalização total"],
+      title: "Copy Persuasiva",
+      subtitle: "Textos que Vendem",
+      description: "Copywriting profissional focado em conversão, com gatilhos mentais e técnicas de persuasão para aumentar suas vendas.",
+      features: ["Gatilhos mentais", "Técnicas de persuasão", "Foco em conversão"],
       badge: null
     },
     {
       icon: Zap,
-      title: "Respostas Instantâneas",
-      subtitle: "Zero Tempo de Espera",
-      description: "Responde imediatamente a todas as mensagens, eliminando filas de espera e aumentando a satisfação do cliente.",
-      features: ["Resposta em milissegundos", "Sem tempo de espera", "Atendimento simultâneo ilimitado"],
+      title: "Carregamento Rápido",
+      subtitle: "Performance Otimizada",
+      description: "Landing page otimizada para carregamento ultrarrápido, garantindo que seus visitantes não desistam antes de ver sua oferta.",
+      features: ["Carregamento rápido", "Código otimizado", "Performance máxima"],
       badge: null
     },
     {
-      icon: Settings,
-      title: "Personalização Total",
-      subtitle: "Agente Único da Sua Empresa",
-      description: "Configuramos o agente com a personalidade, tom de voz e conhecimento específico da sua empresa para atendimento personalizado.",
-      features: ["Tom de voz personalizado", "Conhecimento específico", "Respostas consistentes"],
+      icon: Smartphone,
+      title: "Mobile First",
+      subtitle: "Perfeita no Celular",
+      description: "Desenvolvida com foco no mobile, garantindo experiência perfeita em smartphones onde acontecem 70% das conversões.",
+      features: ["Design mobile first", "Experiência otimizada", "Conversão no celular"],
       badge: null
     },
     {
       icon: CheckCircle,
-      title: "Qualificação Inteligente",
-      subtitle: "Identifica Clientes Prontos",
-      description: "Qualifica automaticamente leads, identifica intenção de compra e direciona oportunidades quentes para sua equipe.",
-      features: ["Lead scoring automático", "Identificação de intenção", "Priorização inteligente"],
-      badge: "Vendas"
+      title: "Integração Completa",
+      subtitle: "Conecta com Tudo",
+      description: "Integramos com WhatsApp, e-mail marketing, pixels de rastreamento e ferramentas de analytics para máximo controle.",
+      features: ["Integração WhatsApp", "Pixels de rastreamento", "Analytics inclusos"],
+      badge: "Completa"
     }
   ];
 
@@ -60,13 +60,13 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Por Que Nosso Agente é
+            Por Que Nossas Landing Pages
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              {" "}Superior
+              {" "}Convertem Mais
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Descubra as vantagens exclusivas do agente de IA mais avançado do Brasil para atendimento no WhatsApp.
+            Descubra o que torna nossas landing pages as mais eficazes do mercado brasileiro.
           </p>
         </div>
 
@@ -110,13 +110,13 @@ const ServicesSection = () => {
         {/* Bottom CTA */}
         <div className="text-center">
           <p className="text-lg text-muted-foreground mb-6">
-            Pronto para ter o melhor agente de WhatsApp trabalhando para você?
+            Pronto para ter uma landing page que realmente converte?
           </p>
           <button 
             className="bg-primary hover:bg-primary-hover text-primary-foreground px-8 py-3 rounded-lg font-medium transition-colors inline-flex items-center gap-2"
-            onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20agente%20de%20IA.', '_blank')}
+            onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}
           >
-            Testar Agente Grátis
+            Quero Minha Landing Page
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>
