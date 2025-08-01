@@ -8,21 +8,21 @@ import landingPage3 from "@/assets/showcase/landing-page-3.png";
 const ShowcaseSection = () => {
   const showcaseItems = [
     {
-      image: landingPage1,
+      image: landingPage2,
       title: "E-commerce Premium",
       description: "Landing page para loja de produtos digitais com foco em conversão",
       conversion: "87%",
       category: "E-commerce"
     },
     {
-      image: landingPage2,
+      image: landingPage3,
       title: "SaaS Profissional", 
       description: "Página de captura para software empresarial com design clean",
       conversion: "92%",
       category: "SaaS"
     },
     {
-      image: landingPage3,
+      image: landingPage1,
       title: "Curso Online",
       description: "Landing page educacional com alta taxa de conversão em vendas",
       conversion: "89%",
