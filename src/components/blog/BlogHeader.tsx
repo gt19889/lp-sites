@@ -5,9 +5,8 @@ const BlogHeader = () => {
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "Blog", href: "/blog" },
-    { label: "Sobre", href: "/#about" },
-    { label: "Contato", href: "/#contact" },
+    { label: "Blog", href: "/" },
+    { label: "Contato", href: "https://wa.me/553171547107" },
   ];
 
   return (
@@ -19,7 +18,6 @@ const BlogHeader = () => {
             alt="GT Gestão Digital"
             className="h-8"
           />
-          <span className="text-xl font-bold text-foreground">GT</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
