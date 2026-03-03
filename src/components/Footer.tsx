@@ -5,21 +5,21 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    "Tráfego Pago (Google Ads/Meta)",
-    "SEO & Marketing de Conteúdo",
-    "Automação com IA",
-    "Agentes de IA para WhatsApp",
-    "Consultoria Estratégica"
-  ];
+  "Tráfego Pago (Google Ads/Meta)",
+  "SEO & Marketing de Conteúdo",
+  "Automação com IA",
+  "Agentes de IA para WhatsApp",
+  "Consultoria Estratégica"];
+
 
   const quickLinks = [
-    { name: "Início", href: "#hero" },
-    { name: "Serviços", href: "#services" },
-    { name: "Metodologia", href: "#methodology" },
-    { name: "Resultados", href: "#results" },
-    { name: "Depoimentos", href: "#testimonials" },
-    { name: "Contato", href: "#contact" }
-  ];
+  { name: "Início", href: "#hero" },
+  { name: "Serviços", href: "#services" },
+  { name: "Metodologia", href: "#methodology" },
+  { name: "Resultados", href: "#results" },
+  { name: "Depoimentos", href: "#testimonials" },
+  { name: "Contato", href: "#contact" }];
+
 
   return (
     <footer className="bg-background text-foreground">
@@ -28,12 +28,14 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <img 
-                src="/lovable-uploads/7f8baf30-c892-41bc-8982-e7d5e40dc5a0.png" 
-                alt="GT Gestão Digital" 
-                className="h-8"
-              />
-              <h3 className="text-2xl font-bold">GT Gestão Digital</h3>
+              <img
+                src="/lovable-uploads/7f8baf30-c892-41bc-8982-e7d5e40dc5a0.png"
+                alt="GT Gestão Digital"
+                className="h-8" />
+              
+              <h3 className="text-2xl font-bold">Gestão Digital
+
+              </h3>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
               Agência especializada em marketing digital, automação com IA e crescimento acelerado 
@@ -44,22 +46,20 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-white/60" />
-                <a 
-                  href="mailto:contato@gtgestaodigital.com.br" 
-                  className="text-white/80 hover:text-white transition-colors"
-                >
+                <a href="mailto:contato@gtgestaodigital.com.br" className="text-white/80 hover:text-white transition-colors">
+                  
                   contato@gtgestaodigital.com.br
                 </a>
               </div>
               
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-white/60" />
-                <a 
-                  href="https://wa.me/5531984005700?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20agente%20de%20IA." 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/5531984005700?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20agente%20de%20IA."
+                  target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
-                >
+                  className="text-white/80 hover:text-white transition-colors">
+                  
                   31 98400-5700
                 </a>
               </div>
@@ -80,13 +80,13 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Nossos Serviços</h4>
             <ul className="space-y-2">
-              {services.map((service, index) => (
-                <li key={index}>
+              {services.map((service, index) =>
+              <li key={index}>
                   <span className="text-white/80 hover:text-white transition-colors cursor-pointer">
                     {service}
                   </span>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
@@ -94,22 +94,22 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Siga-nos</h4>
             <div className="flex gap-3">
-              <a 
-                href="https://www.facebook.com/profile.php?id=100092534148492&sk=about" 
+              <a
+                href="https://www.facebook.com/profile.php?id=100092534148492&sk=about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                aria-label="Facebook"
-              >
+                aria-label="Facebook">
+                
                 <Facebook className="w-4 h-4" />
               </a>
-              <a 
-                href="https://www.instagram.com/gt.gestaodigital" 
+              <a
+                href="https://www.instagram.com/gt.gestaodigital"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                aria-label="Instagram"
-              >
+                aria-label="Instagram">
+                
                 <Instagram className="w-4 h-4" />
               </a>
             </div>
@@ -149,8 +149,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
