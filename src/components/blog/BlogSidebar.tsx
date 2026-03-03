@@ -19,7 +19,7 @@ const BlogSidebar = () => {
             Descubra o que está travando o crescimento do seu negócio. Sem compromisso.
           </p>
           <a
-            href="https://wa.me/553171547107?text=Ol%C3%A1!%20Quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20marketing!"
+            href="https://wa.me/5531984005700?text=Ol%C3%A1!%20Quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20marketing!"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block w-full bg-primary hover:bg-primary-hover text-primary-foreground px-4 py-2.5 rounded-lg text-sm font-bold transition-colors"

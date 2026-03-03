@@ -86,7 +86,7 @@ const BlogArticle = () => {
                 Diagnóstico gratuito. Sem compromisso.
               </p>
               <a
-                href="https://wa.me/553171547107?text=Ol%C3%A1!%20Vim%20do%20blog%20e%20quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20marketing!"
+                href="https://wa.me/5531984005700?text=Ol%C3%A1!%20Vim%20do%20blog%20e%20quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20marketing!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-primary-foreground px-8 py-3 rounded-lg font-bold transition-colors"
