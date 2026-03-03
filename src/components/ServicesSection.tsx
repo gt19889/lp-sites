@@ -114,7 +114,7 @@ const ServicesSection = () => {
           </p>
           <button 
             className="bg-primary hover:bg-primary-hover text-primary-foreground px-8 py-3 rounded-lg font-medium transition-colors inline-flex items-center gap-2"
-            onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}
+            onClick={() => window.open('https://wa.me/5531984005700?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}
           >
             Quero Minha Landing Page
             <ArrowRight className="w-5 h-5" />

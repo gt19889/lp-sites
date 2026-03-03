@@ -16,7 +16,7 @@ const CTASection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const whatsappMessage = `Olá! Quero agendar minha call de finalização para criar minha landing page.%0A%0ANome: ${formData.name}%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}%0AEmpresa: ${formData.company}%0ADetalhes: ${formData.message}%0A%0APor favor, encaminhe para: contato@gtgestaodigital.com.br`;
-    window.open(`https://wa.me/553171547107?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/5531984005700?text=${whatsappMessage}`, '_blank');
   };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -99,7 +99,7 @@ const CTASection = () => {
                     <h3 className="font-bold text-lg mb-1">Quer começar agora?</h3>
                     <p className="text-green-100 text-sm">Fale direto conosco via WhatsApp</p>
                   </div>
-                  <Button className="bg-white text-green-600 hover:bg-green-50 font-bold" onClick={() => window.open('https://wa.me/553171547107?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}>
+                  <Button className="bg-white text-green-600 hover:bg-green-50 font-bold" onClick={() => window.open('https://wa.me/5531984005700?text=Ol%C3%A1!%20Quero%20uma%20landing%20page%20de%20alta%20convers%C3%A3o%20entregue%20em%2048h!', '_blank')}>
                     Chamar
                   </Button>
                 </div>

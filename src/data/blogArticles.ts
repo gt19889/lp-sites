@@ -1,5 +1,7 @@
 import artigoTrafegoCover from "@/assets/blog/artigo-trafego-pago-cover.jpg";
 import artigoSinaisCover from "@/assets/blog/artigo-sinais-agencia-cover.jpg";
+import artigoMarketingBHCover from "@/assets/blog/artigo-marketing-bh-cover.jpg";
+import artigoIAWhatsAppCover from "@/assets/blog/artigo-ia-whatsapp-cover.jpg";
 
 export interface BlogArticle {
   slug: string;
@@ -199,6 +201,191 @@ export const blogArticles: BlogArticle[] = [
 <p>Se você marcou 3 ou mais, sua empresa está deixando clientes (e dinheiro) na mesa todos os dias.</p>
 <p>A boa notícia: isso tem solução. E começa com um diagnóstico honesto.</p>
     `
+  },
+  {
+    slug: "marketing-digital-belo-horizonte",
+    category: "SEO Local",
+    title: "Marketing digital para empresas em Belo Horizonte: o que funciona em 2026",
+    metaDescription: "Descubra o que funciona de verdade no marketing digital para empresas em Belo Horizonte em 2026 — e como negócios locais estão ganhando clientes online todos os dias.",
+    coverImage: artigoMarketingBHCover,
+    publishedAt: "2026",
+    author: "GT Agência",
+    readTime: "12 min de leitura",
+    content: `
+<p>Se você tem um negócio em BH e sente que marketing digital é coisa de grande empresa ou de quem vende para o Brasil inteiro — esse artigo vai mudar sua visão.</p>
+<p>Empresas locais em Belo Horizonte têm uma vantagem enorme que a maioria ignora: o cliente está perto, pesquisa com intenção de compra alta e quer atendimento rápido. Quem aparecer primeiro, com a mensagem certa, fecha.</p>
+<p>O problema é que a maioria das empresas de BH ainda não está aproveitando isso direito.</p>
+
+<h2>Por que BH é um mercado digital subexplorado</h2>
+<p>Belo Horizonte é a terceira maior cidade do Brasil, com mais de 2,7 milhões de habitantes e uma economia diversificada — saúde, construção civil, serviços, varejo, gastronomia, tecnologia.</p>
+<p>Mas quando você pesquisa no Google por serviços locais, o que encontra?</p>
+<p>Na maioria dos nichos: pouquíssimas empresas bem posicionadas. Isso significa que quem investe agora entra num mercado com baixa concorrência digital — e colhe resultado mais rápido do que em mercados saturados como São Paulo.</p>
+
+<h2>O que realmente funciona para negócios locais em BH</h2>
+
+<h3>1. Google Meu Negócio otimizado (gratuito e poderoso)</h3>
+<p>Sabe quando você pesquisa "dentista perto de mim" e aparecem aqueles cards com foto, avaliações e horário? Isso é o Google Business Profile.</p>
+<p>Em 2026, ele continua sendo a ferramenta de maior ROI para negócios locais — e a maioria das empresas em BH tem o perfil incompleto, sem foto atualizada, sem resposta de avaliações.</p>
+<p>O que você precisa fazer:</p>
+<ul>
+<li>Perfil 100% preenchido com categoria principal correta</li>
+<li>Fotos reais do espaço, equipe e serviço (mínimo 10)</li>
+<li>Responder todas as avaliações — positivas e negativas</li>
+<li>Postar atualizações semanais pelo próprio Google Meu Negócio</li>
+<li>Acumular avaliações ativamente (peça para clientes satisfeitos)</li>
+</ul>
+<p>Um perfil bem otimizado em BH pode gerar contatos orgânicos todos os dias — sem investir nada em anúncio.</p>
+
+<h3>2. Google Ads com segmentação local</h3>
+<p>Para serviços com alta intenção de compra — advocacia, clínicas, reformas, contabilidade, imóveis — Google Ads com segmentação por bairro ou raio geográfico é imbatível.</p>
+<p>O cliente já está procurando. Você só precisa aparecer no momento certo.</p>
+<p>Campanhas locais em BH costumam ter CPC (custo por clique) menor do que campanhas nacionais — porque a concorrência de anunciantes é mais baixa. Isso significa mais lead pelo mesmo dinheiro.</p>
+
+<h3>3. SEO local: aparecer no Google sem pagar por clique</h3>
+<p>SEO local é o trabalho de otimizar seu site para aparecer nas buscas orgânicas com termos como:</p>
+<ul>
+<li>"contabilidade em Belo Horizonte"</li>
+<li>"clínica de estética Savassi"</li>
+<li>"advocacia trabalhista BH"</li>
+</ul>
+<p>O processo envolve:</p>
+<ul>
+<li>Páginas do site com menção explícita à cidade e bairros de atuação</li>
+<li>Conteúdo respondendo perguntas que seu cliente local pesquisa</li>
+<li>Backlinks de sites e portais locais</li>
+<li>Consistência de NAP (nome, endereço, telefone) em todos os diretórios</li>
+</ul>
+<p>Resultado: tráfego gratuito e qualificado que cresce todo mês — sem depender de verba de anúncio.</p>
+
+<h3>4. Instagram e Meta Ads com segmentação geográfica</h3>
+<p>Diferente do que muita gente pensa, Instagram não é só para moda e gastronomia. Em BH, funciona muito bem para:</p>
+<ul>
+<li>Clínicas e estética (antes/depois, depoimentos)</li>
+<li>Imóveis e construtoras</li>
+<li>Serviços B2B com decisor ativo nas redes</li>
+<li>Gastronomia e varejo físico</li>
+</ul>
+<p>A chave é segmentar por raio geográfico — anunciar para pessoas que moram ou trabalham em bairros específicos de BH, com criativos que falem a linguagem local.</p>
+
+<h2>Os bairros e regiões com maior potencial digital em BH</h2>
+<p>Alguns dados para orientar sua estratégia:</p>
+<ul>
+<li><strong>Alta concentração de buscas por serviços premium:</strong> Vila da Serra (Nova Lima), Savassi, Lourdes, Funcionários, Belvedere, Buritis</li>
+<li><strong>Alta densidade empresarial (B2B):</strong> Centro, Barro Preto, Lourdes, Santa Efigênia</li>
+<li><strong>Crescimento residencial acelerado (oportunidade):</strong> Barroca, Caiçara, Pampulha, Venda Nova, Contagem/Betim (grande BH)</li>
+</ul>
+<p>Empresas que criam conteúdo e campanhas citando bairros específicos têm performance significativamente melhor do que quem fala só "Belo Horizonte".</p>
+
+<h2>O erro mais comum de empresas de BH no marketing digital</h2>
+<p>Copiar o que grandes marcas nacionais fazem.</p>
+<p>Marca nacional constrói awareness. Negócio local precisa de cliente agora.</p>
+<p>Estratégia de negócio local precisa ser direta, com CTA claro, focada em conversão — não em alcance. Menos "conheça nossa história" e mais "agende agora e ganhe X".</p>
+
+<h2>Por onde começar se você está em BH e quer resultado em 90 dias</h2>
+<p>Ordem de prioridade:</p>
+<ol>
+<li><strong>Google Meu Negócio</strong> — otimize hoje, resultado em semanas</li>
+<li><strong>Site com SEO local</strong> — páginas por serviço + cidade</li>
+<li><strong>Google Ads local</strong> — captura quem já está procurando</li>
+<li><strong>Instagram com Meta Ads</strong> — escala e remarketing</li>
+</ol>
+<p>Não precisa fazer tudo ao mesmo tempo. Precisa fazer cada etapa direito.</p>
+    `
+  },
+  {
+    slug: "inteligencia-artificial-atendimento-whatsapp",
+    category: "Autoridade em IA",
+    title: "Como usar Inteligência Artificial no atendimento via WhatsApp",
+    metaDescription: "Entenda como usar Inteligência Artificial no atendimento via WhatsApp para responder leads mais rápido, automatizar follow-up e vender mais sem aumentar equipe.",
+    coverImage: artigoIAWhatsAppCover,
+    publishedAt: "2026",
+    author: "GT Agência",
+    readTime: "14 min de leitura",
+    content: `
+<p>Você já perdeu um cliente porque demorou para responder no WhatsApp?</p>
+<p>A resposta, para a maioria das empresas, é sim — e o problema é maior do que parece.</p>
+<p>Estudos mostram que leads respondidos em até 5 minutos têm até <strong>9x mais chance de converter</strong> do que leads respondidos após 30 minutos. No Brasil, onde WhatsApp é o canal de comunicação principal, essa janela de oportunidade se fecha rapidíssimo.</p>
+<p>A boa notícia: Inteligência Artificial resolve exatamente esse problema — e em 2026, está acessível para empresas de qualquer porte.</p>
+
+<h2>O que é um agente de IA no WhatsApp (e o que não é)</h2>
+<p>Antes de avançar, precisa ficar claro o que estamos falando — porque tem muita confusão no mercado.</p>
+<p><strong>Não é:</strong> aquele bot com menu de opções ("Digite 1 para suporte, 2 para vendas") que irrita todo mundo e não resolve nada.</p>
+<p><strong>É:</strong> um assistente treinado com as informações do seu negócio que consegue manter conversas naturais, responder dúvidas específicas, qualificar o lead e encaminhar para o vendedor humano no momento certo.</p>
+<p>A diferença na prática: o cliente digita "quero saber sobre o plano mensal de vocês" e recebe uma resposta contextualizada, com os detalhes do plano, pergunta sobre o perfil do cliente e agenda uma conversa com o time comercial — tudo de forma automática, 24 horas por dia.</p>
+
+<h2>Por que isso importa agora</h2>
+<p>Em 2025 e 2026, três coisas aconteceram ao mesmo tempo:</p>
+
+<h3>1. O custo da IA caiu drasticamente</h3>
+<p>Implementar um agente de IA no WhatsApp custava caro e exigia desenvolvedor especializado. Hoje, com ferramentas como N8N, Make, Typebot e integrações com modelos de linguagem como GPT-4 e Claude, uma PME consegue ter isso funcionando com investimento acessível.</p>
+
+<h3>2. A expectativa do consumidor subiu</h3>
+<p>O cliente que manda mensagem às 22h espera resposta. Se você não tem ninguém disponível, ele vai para o concorrente que tem.</p>
+
+<h3>3. Escalar time de atendimento ficou caro</h3>
+<p>Contratar, treinar e reter atendentes é um dos maiores custos operacionais de empresas em crescimento. IA não substitui o time — mas multiplica a capacidade de atendimento sem multiplicar o custo.</p>
+
+<h2>O que um agente de IA pode fazer pelo seu negócio hoje</h2>
+
+<h3>Qualificação automática de leads</h3>
+<p>Quando um lead chega pelo anúncio ou pelo Google, o agente de IA inicia a conversa, coleta informações essenciais (segmento, tamanho da empresa, necessidade, orçamento) e classifica o lead antes de passar para o vendedor.</p>
+<p><strong>Resultado:</strong> o vendedor humano foca só em leads quentes — não perde tempo com quem ainda está pesquisando.</p>
+
+<h3>Follow-up automático</h3>
+<p>Quantos leads você perdeu porque esqueceu de dar retorno? Com automação, nenhum lead fica sem follow-up. O sistema envia mensagem no dia seguinte, após 3 dias, após 7 dias — com mensagens personalizadas baseadas no contexto da conversa anterior.</p>
+
+<h3>Atendimento fora do horário comercial</h3>
+<p>Das 18h às 9h do dia seguinte, sua empresa continua atendendo, respondendo dúvidas e agendando reuniões. O cliente não espera. Você não perde oportunidade.</p>
+
+<h3>Reativação de leads antigos</h3>
+<p>Base de contatos parada no WhatsApp é dinheiro dormindo. Um agente de IA pode rodar campanhas de reativação com mensagens personalizadas — e trazer de volta leads que esfriaram.</p>
+
+<h2>Como funciona na prática: fluxo de atendimento com IA</h2>
+<p>Um fluxo básico para empresas de serviço:</p>
+<ol>
+<li>Lead clica no anúncio → Cai no WhatsApp</li>
+<li>IA recebe, apresenta a empresa e faz perguntas de qualificação</li>
+<li>Se qualificado: agenda reunião ou passa para vendedor</li>
+<li>Se não qualificado: nutre com conteúdo automático por 7 dias</li>
+<li>Vendedor recebe resumo da conversa antes de ligar</li>
+</ol>
+<p>Esse fluxo, bem implementado, reduz o tempo médio de qualificação de horas para minutos — e aumenta a taxa de conversão de leads em reuniões.</p>
+
+<h2>Ferramentas que usamos na GT para implementar isso</h2>
+<p>Não existe solução única. O stack depende do volume de leads, do processo comercial e do orçamento. Mas as combinações mais eficientes que trabalhamos:</p>
+<ul>
+<li><strong>WhatsApp Business API</strong> — base para qualquer automação profissional</li>
+<li><strong>N8N ou Make</strong> — orquestração dos fluxos de automação</li>
+<li><strong>GPT-4 / Claude API</strong> — inteligência para respostas contextuais</li>
+<li><strong>CRM integrado</strong> — todos os leads registrados automaticamente</li>
+</ul>
+<p>O ponto mais importante: a tecnologia é o meio, não o fim. Um agente de IA mal treinado, sem personalidade definida e sem integração com o processo comercial é tão ineficaz quanto o atendimento humano desorganizado.</p>
+
+<h2>Isso substitui meu time de vendas?</h2>
+<p><strong>Não.</strong> E quem promete isso está te vendendo ilusão.</p>
+<p>IA é excelente para triagem, qualificação, follow-up e atendimento de dúvidas recorrentes. Para negociação, construção de relacionamento e fechamento de contratos complexos — o humano ainda é insubstituível.</p>
+<p>O modelo que funciona: <strong>IA cuida do volume, humano cuida do valor.</strong></p>
+
+<h2>Quanto custa implementar</h2>
+<p>A variação é grande dependendo da complexidade, mas para ter uma referência:</p>
+<div class="table-wrapper">
+<table>
+<thead><tr><th>Nível</th><th>O que inclui</th><th>Investimento aproximado</th></tr></thead>
+<tbody>
+<tr><td>Básico</td><td>Fluxo simples de qualificação + follow-up</td><td>R$ 1.500 a R$ 3.000 (setup)</td></tr>
+<tr><td>Intermediário</td><td>IA com respostas contextuais + CRM</td><td>R$ 3.000 a R$ 8.000 (setup)</td></tr>
+<tr><td>Avançado</td><td>Agente completo + integrações + treinamento</td><td>R$ 8.000+ (setup)</td></tr>
+</tbody>
+</table>
+</div>
+<p>Mais mensalidade de ferramentas: entre R$ 800 e R$ 2.500/mês dependendo do volume.</p>
+<p>O ROI costuma ser positivo já no primeiro mês para empresas com alto volume de leads.</p>
+
+<h2>O que acontece com empresas que não automatizarem</h2>
+<p>Em 2 a 3 anos, a diferença entre empresas que automatizaram atendimento e as que não automatizaram vai ser brutal.</p>
+<p>Não porque IA é modismo — mas porque velocidade de resposta e disponibilidade 24h vão se tornar expectativa mínima do consumidor, não diferencial.</p>
+<p>Quem sair na frente agora constrói vantagem competitiva. Quem esperar vai correr atrás.</p>
+    `
   }
 ];
 
@@ -207,6 +394,8 @@ export const blogCategories = [
   "Diagnóstico",
   "Tráfego Pago",
   "SEO",
+  "SEO Local",
+  "Autoridade em IA",
   "Automação"
 ];
 

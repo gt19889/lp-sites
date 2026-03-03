@@ -6,7 +6,7 @@ const BlogHeader = () => {
   const navItems = [
     { label: "Home", href: "/" },
     { label: "Blog", href: "/" },
-    { label: "Contato", href: "https://wa.me/553171547107" },
+    { label: "Contato", href: "https://wa.me/5531984005700" },
   ];
 
   return (
@@ -37,7 +37,7 @@ const BlogHeader = () => {
         </nav>
 
         <a
-          href="https://wa.me/553171547107?text=Ol%C3%A1!%20Vim%20pelo%20blog%20e%20quero%20um%20diagn%C3%B3stico%20gratuito!"
+          href="https://wa.me/5531984005700?text=Ol%C3%A1!%20Vim%20pelo%20blog%20e%20quero%20um%20diagn%C3%B3stico%20gratuito!"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-primary hover:bg-primary-hover text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium transition-colors"
