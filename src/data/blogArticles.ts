@@ -420,10 +420,10 @@ export const blogArticles: BlogArticle[] = [
 <p>Tecnicamente sim, mas não é recomendado. Soluções não oficiais violam os termos de uso do WhatsApp e podem resultar no banimento do número. A WhatsApp Business API é o caminho correto para automações profissionais e escaláveis.</p>
 
 <h3>Quanto tempo leva para implementar?</h3>
-<p>Um fluxo básico pode estar funcionando em 2 a 4 semanas. Projetos mais complexos, com integrações de CRM e agente treinado com conteúdo específico do negócio, levam de 4 a 8 semanas.</p>
+<p>Um fluxo básico pode estar funcionando em 3 a 6 semanas. Projetos mais complexos, com integrações de CRM e agente treinado com conteúdo específico do negócio, levam de 5 a 10 semanas — podendo ser até mais, dependendo da complexidade.</p>
 
 <h3>Funciona para qualquer tipo de empresa?</h3>
-<p>Funciona melhor para empresas com volume consistente de leads e processo comercial definido — clínicas, imobiliárias, agências, consultorias, SaaS, e-commerce de ticket médio. Empresas com 1 ou 2 vendedores e poucos leads por mês podem não sentir o ROI de forma clara no curto prazo.</p>
+<p>Funciona melhor para empresas com volume consistente de leads e processo comercial definido — clínicas, imobiliárias, escritórios de advocacia, escritórios de engenharia e arquitetura, corretoras de seguros, empresas de consórcios, agências, consultorias, SaaS, e-commerce de ticket médio, entre outros segmentos com atendimento recorrente. Empresas com 1 ou 2 vendedores e poucos leads por mês podem não sentir o ROI de forma clara no curto prazo.</p>
 
 <h3>A IA consegue responder qualquer pergunta do cliente?</h3>
 <p>Ela responde com base no que foi treinado — informações do produto, processo, preços, FAQ, perfil de cliente ideal. Para dúvidas fora do escopo, ela pode encaminhar para o humano ou registrar para follow-up posterior. O treinamento correto é o que define a qualidade das respostas.</p>
