@@ -3,6 +3,13 @@ import artigoSinaisCover from "@/assets/blog/artigo-sinais-agencia-cover.jpg";
 import artigoMarketingBHCover from "@/assets/blog/artigo-marketing-bh-cover.jpg";
 import artigoIAWhatsAppCover from "@/assets/blog/artigo-ia-whatsapp-cover.jpg";
 
+export interface BlogArticleCTA {
+  title: string;
+  description: string;
+  buttonText: string;
+  whatsappMessage: string;
+}
+
 export interface BlogArticle {
   slug: string;
   category: string;
@@ -13,6 +20,7 @@ export interface BlogArticle {
   author: string;
   readTime: string;
   content: string;
+  cta?: BlogArticleCTA;
 }
 
 export const blogArticles: BlogArticle[] = [
@@ -124,7 +132,13 @@ export const blogArticles: BlogArticle[] = [
 <li>✅ Acompanhar: CPL (custo por lead), CPA e ROAS</li>
 </ul>
 <p><strong>Investimento total de entrada: R$ 3.000 a R$ 5.000/mês</strong> para ter uma operação que realmente funciona.</p>
-    `
+    `,
+    cta: {
+      title: "Quer saber quanto sua empresa deveria investir em tráfego pago?",
+      description: "Diagnóstico gratuito. Sem compromisso.",
+      buttonText: "Falar com especialista no WhatsApp",
+      whatsappMessage: "Olá! Vim do blog e quero entender quanto investir em tráfego pago!"
+    }
   },
   {
     slug: "sinais-empresa-precisa-agencia-marketing",
@@ -200,7 +214,13 @@ export const blogArticles: BlogArticle[] = [
 <h2>Quantos desses sinais você identificou?</h2>
 <p>Se você marcou 3 ou mais, sua empresa está deixando clientes (e dinheiro) na mesa todos os dias.</p>
 <p>A boa notícia: isso tem solução. E começa com um diagnóstico honesto.</p>
-    `
+    `,
+    cta: {
+      title: "Identificou esses sinais na sua empresa?",
+      description: "Faça um diagnóstico gratuito e descubra o que está travando seu crescimento.",
+      buttonText: "Quero meu diagnóstico gratuito",
+      whatsappMessage: "Olá! Vim do blog e quero meu diagnóstico gratuito de marketing!"
+    }
   },
   {
     slug: "marketing-digital-belo-horizonte",
@@ -290,7 +310,13 @@ export const blogArticles: BlogArticle[] = [
 <li><strong>Instagram com Meta Ads</strong> — escala e remarketing</li>
 </ol>
 <p>Não precisa fazer tudo ao mesmo tempo. Precisa fazer cada etapa direito.</p>
-    `
+    `,
+    cta: {
+      title: "Sua empresa é de BH e quer resultado em 90 dias?",
+      description: "Diagnóstico gratuito com foco no mercado local. Sem compromisso.",
+      buttonText: "Falar com especialista no WhatsApp",
+      whatsappMessage: "Olá! Sou de BH e quero meu diagnóstico gratuito de marketing digital!"
+    }
   },
   {
     slug: "inteligencia-artificial-atendimento-whatsapp",
@@ -430,7 +456,13 @@ export const blogArticles: BlogArticle[] = [
 
 <h3>O cliente vai perceber que está falando com uma IA?</h3>
 <p>Depende de como o agente é configurado. Muitas empresas optam por deixar claro — o que não é problema, pois o cliente valoriza a agilidade. Outras constroem personas mais humanizadas. O que nenhuma faz é tentar enganar o cliente: além de antiético, é desnecessário.</p>
-    `
+    `,
+    cta: {
+      title: "Quer ver como um agente de IA funcionaria no seu WhatsApp?",
+      description: "Montamos uma demonstração personalizada para o seu negócio. Sem compromisso.",
+      buttonText: "Solicitar demonstração no WhatsApp",
+      whatsappMessage: "Olá! Vim do blog e quero ver uma demonstração de agente de IA no WhatsApp!"
+    }
   }
 ];
 
